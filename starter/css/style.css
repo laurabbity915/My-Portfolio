@@ -9,6 +9,95 @@ body {
   line-height: 1.5;
 }
 
+.header {
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #31343d;
+}
+
+.name-block h1 {
+  color: #31343d;
+  margin-left: 5rem;
+  padding-right: 10px;
+}
+
+/* keep the name and the meun in the same row */
+.name-block {
+  display: inline-block;
+  background-color: #92cccd;
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-banner {
+  height: 10em;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cool-subtitle {
+  position: relative;
+  top: 100px;
+  margin-right: 60px;
+}
+
+.cool-subtitle h2 {
+  background-color: #92cccd;
+  float: right;
+}
+
+/* move the meun to the right */
+.topnav {
+  float: right;
+  margin-right: 3rem;
+}
+
+/* change the meun to horizontal */
+.topnav ul li {
+  display: inline;
+}
+
+/* remove the meun bullet point */
+.topnav ul {
+  list-style-type: none;
+}
+
+.menu {
+  color: #92cccd;
+  border-bottom: 3px solid #92cccd;
+  padding-bottom: 2px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: row;
+  vertical-align: top;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+/* About Me CSS */
+.page-section h2 {
+  box-sizing: border-box;
+  color: #445877;
+  font-size: 40px;
+  width: 10rem;
+  text-align: right;
+  
+}
+
+.page-divider {
+  border-left: 3px solid #445877;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
 h1,
 h2,
 h3,
