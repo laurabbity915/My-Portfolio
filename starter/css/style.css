@@ -66,6 +66,10 @@ ul {
   list-style-type: none;
 }
 
+.about-me-content p{
+  font-size: medium;
+}
+
 .menu {
   color: #92cccd;
   border-bottom: 3px solid #92cccd;
@@ -154,12 +158,17 @@ ul {
 .text-bottom-left {
   position: absolute;
   bottom: 8px;
-  left: 16px;
 }
 
 .image-container {
   position: relative;
-  text-align: center;
+  text-align: left;
+  color: #31343d;
+}
+
+.image-container h3{
+  background-color: #92cccd;
+  padding: 16px;
 }
 
 .image {
@@ -167,12 +176,14 @@ ul {
 }
 
 .content-me {
-  width: 100%;
+  width: 80%;
 }
 
 .content-me ul {
   display: flex;
   justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
 }
 
 .content-me ul li {
@@ -189,7 +200,7 @@ ul {
 
 
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -197,7 +208,8 @@ h5,
 h6 {
   margin: 0;
 }
-
+*/
 p {
   margin: 0;
-}
+  font-size: small;
+} 
