@@ -21,7 +21,7 @@ body {
   padding-right: 10px;
 }
 
-/* keep the name and the meun in the same row */
+/* keep the name and the menu in the same row */
 .name-block {
   display: inline-block;
   background-color: #92cccd;
@@ -39,29 +39,24 @@ body {
   background-position: center;
 }
 
-.cool-subtitle {
-  position: relative;
-  top: 100px;
-  margin-right: 60px;
-}
-
 .cool-subtitle h2 {
   background-color: #92cccd;
   float: right;
+  margin-right: 2rem;
 }
 
-/* move the meun to the right */
+/* move the menu to the right */
 .topnav {
   float: right;
   margin-right: 3rem;
 }
 
-/* change the meun to horizontal */
+/* change the menu to horizontal */
 ul li {
   display: inline;
 }
 
-/* remove the meun bullet point */
+/* remove the menu bullet point */
 ul {
   list-style-type: none;
 }
